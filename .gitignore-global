@@ -1,0 +1,24 @@
+# latex
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.toc
+*.brf
+*.out
+*.idx
+
+# complied
+*.mex*
+*.o
+*.cl_
+*.d
+core
+
+# backup files
+*.m~
+*.dia~
+
+# vim
+*.swp

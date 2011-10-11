@@ -1,2 +1,4 @@
 [user]
 	email = sommer@diku.dk
+[core]
+	excludesfile = /home/stefan/.gitignore-global
