@@ -107,6 +107,9 @@ if has("autocmd")
 endif " has("autocmd")
 
 " TEX - tex options now in .vim/ftplugin/tex.vim
+
+" OpenCL
+autocmd! BufRead,BufNewFile *.cl     setf opencl
 " REQUIRED. This makes vim invoke latex-suite when you open a tex file.
 set runtimepath+=/usr/share/vim/addons/
 filetype plugin on

@@ -93,3 +93,11 @@
 .xmodmaps/
 .xsession-errors
 .xsession-errors.old
+.Xauthority
+.freemind/
+.gnupg/
+.mcrCache7.15/
+.shotwell/
+.synaptic/
+.thunderbird.last-version
+.thunderbird/

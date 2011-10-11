@@ -102,13 +102,17 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# path
-PATH=$PATH:~/bin:/opt/maple15/bin:/opt/android-sdk-linux_x86/platform-tools
+# PATH
+export PATH=$PATH:/opt/android-sdk-linux_x86/platform-tools:/usr/local/MATLAB/R2011a/bin/
+# PYTHONPATH
+export PYTHONPATH=$PYTHONPATH:~/alien/jsonrpclib/:~/alien/libcommonDjango/django
 
-#python
-export PYTHONPATH=$PYTHONPATH:~/alien/libcommonDjango/django:~/alien/jsonrpclib
-export AMDAPPSDKROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64
-export AMDAPPSDKSAMPLESROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64
+# Misc
+export LIBVA_DRIVER_NAME=fglrx
+
+# AMD SDK
+export AMDAPPSDKROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/
+export AMDAPPSDKSAMPLESROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/
 export LD_LIBRARY_PATH=$AMDAPPSDKROOT/lib/x86_64
 export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
