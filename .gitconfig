@@ -14,8 +14,6 @@
 	default = tracking
 [merge]
 	stat = true
-[core]
-	excludesfile = ~/.gitignore
 
 [difftool]
 	prompt = false
