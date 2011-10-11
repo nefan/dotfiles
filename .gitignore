@@ -37,7 +37,6 @@
 .gegl-0.0/
 .gftp/
 .gimp-2.6/
-.gitk
 .gksu.lock
 .gnome2/
 .google/
@@ -81,7 +80,8 @@
 .skypecallrecorder.rc
 .smpd
 .sqlite_history
-.ssh/
+.ssh/id_dsa*
+.ssh/known_hosts
 .subversion/
 .sudo_as_admin_successful
 .texmf-var/
