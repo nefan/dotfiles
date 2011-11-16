@@ -101,3 +101,8 @@
 .synaptic/
 .thunderbird.last-version
 .thunderbird/
+.goutputstream-*
+.launchpadlib/
+.mricron/
+.nevernote/
+
