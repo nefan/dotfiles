@@ -86,7 +86,6 @@
 .sudo_as_admin_successful
 .texmf-var/
 .thumbnails/
-.vim/
 .vimbackup/
 .viminfo
 .xdvirc
