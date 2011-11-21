@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/stefan/PhD/homepages/ImageWeb-sommer/publications'
+let g:netrw_dirhist_2='/home/stefan/PhD/projects/nest/.git'
+let g:netrw_dirhist_3='/home/stefan/PhD/diverse/sophia'
+let g:netrw_dirhist_4='/home/stefan/PhD/projects/lddmm/code/GPU/quick'
+let g:netrw_dirhist_5='/home/stefan/.vim/ftplugin/latex-suite'
+let g:netrw_dirhist_6='/home/stefan/PhD/projects/lddmm/code/atrophy'
