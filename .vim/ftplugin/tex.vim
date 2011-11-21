@@ -33,7 +33,7 @@ let g:Tex_IgnoredWarnings = 'Underfull'."\n"
         \ . 'specifier changed to'."\n"
         \ . 'You have requested'."\n"
         \ . 'Missing number, treated as zero.'."\n"
-        \ . 'Marginpar on page %.%# moved.'."\n"
+        \ . 'Marginpar on page'."\n"
         \ . 'Font Warning:'."\n"
         \ . 'There were undefined references'."\n"
         \ . 'Citation %.%# undefined'
