@@ -1,18 +1,4 @@
 diffeomorphisms
-LDDKBM
-LDDMM
-GPU
-GPUs
-biomarkers
-Diffeomorphic
-diffeomorphism
-EPDiff
-voxels
-diffeomorphic
-Riemannian
-Beltrami
-Gaussians
-discretizations
 diffeomorphism
 Riemannian
 discretize
@@ -38,3 +24,4 @@ Polyaffine
 reparametrization
 Sobolev
 RKHS
+providecommand

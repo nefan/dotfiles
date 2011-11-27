@@ -8,7 +8,6 @@
 .ICEauthority
 .Skype/
 .VirtualBox/
-.Xresources
 .adobe/
 .android/
 .appdata/
@@ -106,3 +105,4 @@
 .nevernote/
 .install4j
 .yEd/
+.gvfs/
