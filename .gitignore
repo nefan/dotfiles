@@ -106,3 +106,5 @@
 .install4j
 .yEd/
 .gvfs/
+.icedtea/
+.openarena/
