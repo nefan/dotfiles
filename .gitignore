@@ -1,6 +1,25 @@
 /*
 !.*
 
+# misc
+*.WAV
+*.wav
+
+# other versioning systems
+.svn
+
+# latex
+*.aux
+*.blg
+*.dvi
+*.log
+*.toc
+*.ind
+*.ilg
+
+# matlab
+*.m~
+
 # vim
 *.swp
 
@@ -106,3 +125,6 @@
 .install4j
 .yEd/
 .gvfs/
+.cmake/
+.googleearth/
+
