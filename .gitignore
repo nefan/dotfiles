@@ -127,4 +127,5 @@
 .gvfs/
 .cmake/
 .googleearth/
-
+.icedtea/
+.openarena/
