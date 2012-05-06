@@ -129,3 +129,6 @@
 .googleearth/
 .icedtea/
 .openarena/
+.clojure_history
+.java_history
+.m2/

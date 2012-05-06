@@ -64,6 +64,9 @@ imap <Left> <Esc>
 " make with C-m
 map <C-m> :make<CR>
 
+" pathogen
+call pathogen#infect()
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
   " Enable file type detection.
@@ -125,3 +128,11 @@ set grepprg=grep\ -nH\ $*
 
 " OPTIONAL: This enables automatic indentation as you type.
 filetype indent on
+
+" clojure
+:helptags ~/.vim/bundle/VimClojure/doc/
+let g:vimclojure#HighlightBuiltins = 1
+let g:vimclojure#ParenRainbow = 1
+" this should only be necessary if you don't have the ng client in your PATH
+let vimclojure#NailgunClient = "/home/stefan/alien/vimclojure/client/ng"
+let vimclojure#WantNailgun = 1

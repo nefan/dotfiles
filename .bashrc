@@ -116,3 +116,6 @@ export AMDAPPSDKSAMPLESROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/
 export LD_LIBRARY_PATH=$AMDAPPSDKROOT/lib/x86_64
 export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
+
+# clojure
+export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.1.jar"
