@@ -132,3 +132,9 @@
 .clojure_history
 .java_history
 .m2/
+.Private
+.ecryptfs
+.nv/
+.nvidia-settings-rc
+.swo
+
