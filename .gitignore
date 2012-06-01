@@ -134,3 +134,8 @@
 .m2/
 .apvlvinfo
 .filezilla/
+.Private
+.ecryptfs
+.nv/
+.nvidia-settings-rc
+.swo
