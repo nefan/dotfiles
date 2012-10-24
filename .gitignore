@@ -139,3 +139,17 @@
 .nv/
 .nvidia-settings-rc
 .swo
+.anyconnect
+.everpad/
+.fltk/
+.freerdp/
+.hplip/
+.icons/
+.octave_hist
+.remmina/
+.signon/
+.smbcredentials
+.swt/
+.teamviewer/
+.thinlinc/
+
