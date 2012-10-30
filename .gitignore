@@ -24,6 +24,7 @@
 *.swp
 
 # excluded stuff
+.ssh/authorized_keys
 .ICEauthority
 .Skype/
 .VirtualBox/
