@@ -26,3 +26,6 @@ Sobolev
 RKHS
 providecommand
 discretizations
+Thevenin
+parallelizable
+submatrix
