@@ -136,3 +136,6 @@ let g:vimclojure#ParenRainbow = 1
 " this should only be necessary if you don't have the ng client in your PATH
 let vimclojure#NailgunClient = "/home/stefan/alien/vimclojure/client/ng"
 let vimclojure#WantNailgun = 1
+
+" autowrite
+set autowrite
