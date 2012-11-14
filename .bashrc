@@ -118,4 +118,4 @@ export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
 
 # clojure
-export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.1.jar"
+export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.6.jar"
