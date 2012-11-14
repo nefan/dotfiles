@@ -1,11 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/make'
-let g:netrw_dirhist_2='/etc/grub.d'
-let g:netrw_dirhist_3='/home/stefan/PhD/projects/lddmm/code/GPU/data'
-let g:netrw_dirhist_4='/home/stefan/PhD/projects/lddmm/code/GPU/OpenCL++'
-let g:netrw_dirhist_5='/etc/power/event.d'
-let g:netrw_dirhist_6='/home/stefan/tmp/x'
-let g:netrw_dirhist_7='/home/stefan/PhD/projects/thesis/siims11'
-let g:netrw_dirhist_8='/home/stefan/PhD/projects/thesis/mmbia09'
-let g:netrw_dirhist_9='/etc/grub.d'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/stefan/projects/smanifold/code/utils/plotting'
+let g:netrw_dirhist_2='/home/stefan/xx/no-kronred'

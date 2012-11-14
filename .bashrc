@@ -117,5 +117,15 @@ export LD_LIBRARY_PATH=$AMDAPPSDKROOT/lib/x86_64
 export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
 
+ #CUDA
+export PATH=$PATH:/usr/local/cuda/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/lib
+export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/cuda/include/
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/cuda/include/
+export CUDA_ROOT=/usr/local/cuda/bin
+
 # clojure
 export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.6.jar"
+
+# BLAS
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/openblas-base
