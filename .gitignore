@@ -23,6 +23,9 @@
 # vim
 *.swp
 
+# fetchmail
+.fetchmailrc
+
 # excluded stuff
 .ICEauthority
 .Skype/
@@ -141,7 +144,6 @@
 .swo
 .anyconnect
 .calibre_calibre GUI.lock
-.everpad/
 .fltk/
 .gnome/
 .icons/
@@ -150,4 +152,14 @@
 .remmina/
 .signon/
 .thinlinc/
-
+.everpad/
+.freerdp/
+.hplip/
+.octave_hist
+.smbcredentials
+.swt/
+.teamviewer/
+.gimp-2.8/
+.gitk
+.apport-ignore.xml
+.ssh/authorized_keys
