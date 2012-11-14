@@ -27,8 +27,9 @@ RKHS
 providecommand
 discretizations
 Thevenin
+parallelizable
+submatrix
 phasor
 submatrix
 submatrices
 Schur
-parallelizable

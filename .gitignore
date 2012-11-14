@@ -153,4 +153,8 @@
 .swt/
 .teamviewer/
 .thinlinc/
-
+.gimp-2.8/
+.gitk
+.apport-ignore.xml
+.nx/
+.ssh/authorized_keys
