@@ -22,6 +22,12 @@
 
 # vim
 *.swp
+.vim/spell/en.utf-8.add.spl
+
+# mail
+.fetchmailrc
+.fetchmaillog
+.forward
 
 # excluded stuff
 .ICEauthority
@@ -153,3 +159,11 @@
 .teamviewer/
 .thinlinc/
 .gimp-2.8/
+.calibre_calibre GUI.lock
+.gnome/
+.nx/
+.qtnx/
+.thinlinc/
+.gitk
+.apport-ignore.xml
+.ssh/authorized_keys

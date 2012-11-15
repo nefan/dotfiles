@@ -125,7 +125,7 @@ export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/cuda/include/
 export CUDA_ROOT=/usr/local/cuda/bin
 
 # clojure
-export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.1.jar"
+export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.6.jar"
 
 # BLAS
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/openblas-base
