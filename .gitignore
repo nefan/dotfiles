@@ -22,6 +22,17 @@
 
 # vim
 *.swp
+.vim/spell/en.utf-8.add.spl
+
+# mail
+.fetchmailrc
+.fetchmaillog
+.forward
+
+# ssh
+.ssh/authorized_keys
+.ssh/id_dsa*
+.ssh/known_hosts
 
 # excluded stuff
 .ICEauthority
@@ -98,8 +109,6 @@
 .skypecallrecorder.rc
 .smpd
 .sqlite_history
-.ssh/id_dsa*
-.ssh/known_hosts
 .subversion/
 .sudo_as_admin_successful
 .texmf-var/
@@ -140,6 +149,7 @@
 .nvidia-settings-rc
 .swo
 .anyconnect
+.gimp-2.8/
 .everpad/
 .fltk/
 .freerdp/
@@ -153,7 +163,9 @@
 .teamviewer/
 .thinlinc/
 .gimp-2.8/
+.calibre_calibre GUI.lock
+.gnome/
+.nx/
+.qtnx/
 .gitk
 .apport-ignore.xml
-.nx/
-.ssh/authorized_keys
