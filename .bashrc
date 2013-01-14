@@ -103,7 +103,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # PATH
-export PATH=$PATH:/opt/android-sdk-linux_x86/platform-tools:/usr/local/MATLAB/R2012a/bin/:/opt/maple15/bin
+export PATH=$PATH:~/alien/bin:/opt/android-sdk-linux_x86/platform-tools:/usr/local/MATLAB/R2012a/bin/:/opt/maple15/bin
 # PYTHONPATH
 export PYTHONPATH=$PYTHONPATH:~/alien/jsonrpclib/:~/alien/libcommonDjango/django
 
@@ -125,7 +125,7 @@ export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/cuda/include/
 export CUDA_ROOT=/usr/local/cuda/bin
 
 # clojure
-export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.1.jar"
+export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.6.jar"
 
 # BLAS
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/openblas-base
