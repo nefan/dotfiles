@@ -170,3 +170,5 @@
 .qtnx/
 .gitk
 .apport-ignore.xml
+.Xauthority.*
+.ilg-config

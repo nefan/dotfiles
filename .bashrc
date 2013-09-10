@@ -103,7 +103,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # PATH
-export PATH=$PATH:~/alien/bin:/opt/android-sdk-linux_x86/platform-tools:/usr/local/MATLAB/R2012a/bin/:/opt/maple15/bin
+export PATH=$PATH:~/alien/bin:/opt/android-sdk-linux_x86/platform-tools:/usr/local/MATLAB/R2013a/bin/:/opt/maple15/bin
 # PYTHONPATH
 export PYTHONPATH=$PYTHONPATH:~/alien/jsonrpclib/:~/alien/libcommonDjango/django
 
