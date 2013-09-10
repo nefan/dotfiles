@@ -111,7 +111,7 @@ export PYTHONPATH=$PYTHONPATH:~/alien/jsonrpclib/:~/alien/libcommonDjango/django
 export LIBVA_DRIVER_NAME=fglrx
 
 # AMD SDK
-export AMDAPPSDKROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/
+export AMDAPPSDKROOT=/opt/AMDAPP/
 export AMDAPPSDKSAMPLESROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/
 export LD_LIBRARY_PATH=$AMDAPPSDKROOT/lib/x86_64
 export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
@@ -129,3 +129,11 @@ export VIMCLOJURE_SERVER_JAR="$HOME/alien/lib/vimclojure/server-2.3.6.jar"
 
 # BLAS
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/openblas-base
+
+# editor
+EDITOR=vim
+VISUAL=vim
+GIT_EDITOR=vim
+
+# freesurfer
+export FREESURFER_HOME=/usr/local/freesurfer

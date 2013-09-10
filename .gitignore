@@ -172,3 +172,10 @@
 .apport-ignore.xml
 .Xauthority.*
 .ilg-config
+.MRIcroGL/
+.aspell.da.prepl
+.aspell.da.pws
+.mono/
+.mricron-npm/
+.openshot/
+.recently-used
