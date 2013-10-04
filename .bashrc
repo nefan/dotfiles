@@ -114,8 +114,8 @@ export LIBVA_DRIVER_NAME=fglrx
 export AMDAPPSDKROOT=/opt/AMDAPP/
 export AMDAPPSDKSAMPLESROOT=/home/stefan/alien/AMD-APP-SDK-v2.4-lnx64/
 export LD_LIBRARY_PATH=$AMDAPPSDKROOT/lib/x86_64
-export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
-export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/
+export C_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/:$HOME/alien/include:/usr/local/MATLAB/R2013b/extern/include/
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$AMDAPPSDKROOT/include/:$HOME/alien/include:/usr/local/MATLAB/R2013b/extern/include/
 
  #CUDA
 export PATH=$PATH:/usr/local/cuda/bin
