@@ -1,0 +1,3 @@
+cd
+fusermount -u bjsix
+rmdir bjsix
