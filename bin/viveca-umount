@@ -1,0 +1,3 @@
+cd
+fusermount -u viveca
+rmdir viveca
