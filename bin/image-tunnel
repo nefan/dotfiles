@@ -1,1 +1,1 @@
-autossh -R 12006:localhost:22 image -N &
+nohup autossh -R 12006:localhost:22 image -N &
