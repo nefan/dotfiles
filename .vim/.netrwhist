@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/stefan/projects/smanifold/code/utils/plotting'
 let g:netrw_dirhist_2='/home/stefan/xx/no-kronred'
 let g:netrw_dirhist_3='/home/stefan/PostDoc-DTU12/projects/ssparse/Include'
 let g:netrw_dirhist_4='/home/stefan/projects/hca/mfca13'
 let g:netrw_dirhist_5='/home/stefan/.config/autostart'
+let g:netrw_dirhist_6='/home/stefan/viveca'
