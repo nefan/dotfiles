@@ -1,0 +1,53 @@
+MAILDIR=$HOME/Maildir
+VERBOSE=off
+LOGFILE=$MAILDIR/procmail.log
+
+# suppremum score
+SPR=9876543210
+
+
+## spam rules
+SPAM=.Spam/new
+
+# blacklisted
+BLACKLISTED=`formail -xFrom -xSender -xReply-To -xReturn-Path -xReceived|egrep -i -f ~/.procmail-blacklist`
+
+:0
+* ! BLACKLISTED ?? ^^^^
+{
+        LOG = "BLACKLISTED: "
+        LOG = $BLACKLISTED
+        LOG = "
+"
+        :0
+        $SPAM
+}
+
+:0
+* ^X-Spam-Flag: YES
+$SPAM
+
+:0
+* ^X-Spam-Bar: \+\+\+\+\+
+$SPAM
+
+
+# linkedin
+:0
+* $ $SPR^0 ^Subject:.*Invitation to connect on LinkedIn.*
+* ! ^From.*@bounce.linkedin.com.*
+{
+        LOG = "LinkedIn RULES: "
+        :0
+        $SPAM
+}
+
+
+## mailing lists
+
+:0
+* $ $SPR^0 ^From:.*<info@ida.dk>.*
+.feeds/new
+
+:0
+new
