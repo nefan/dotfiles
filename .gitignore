@@ -180,3 +180,5 @@
 .openshot/
 .recently-used
 .amd/
+.matplotlib/
+.MedINRIA

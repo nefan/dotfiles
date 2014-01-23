@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tar czv $1/| gpg --symmetric > $2

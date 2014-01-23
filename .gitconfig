@@ -25,7 +25,7 @@
     ai = add --interactive
     amend = commit --amend -C HEAD
     ap = add --patch
-    au = add --update
+    au = add --update .
     b = branch
     c = commit
     ca = commit --amend
