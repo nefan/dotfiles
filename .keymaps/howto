@@ -1,0 +1,4 @@
+sudo cp us /usr/share/X11/xkb/symbols/us
+sudo rm /var/lib/xkb/*.xkm 
+
+log out, log in
