@@ -140,3 +140,9 @@ export FREESURFER_HOME=/usr/local/freesurfer
 
 # skype
 alias skype='PULSE_LATENCY_MSEC=30 skype'
+
+# ipython
+alias ipython='ipython --pylab'
+
+# everpad
+alias everpad='everpad --all-notes'
