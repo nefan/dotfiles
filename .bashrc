@@ -146,3 +146,6 @@ alias ipython='ipython --pylab'
 
 # everpad
 alias everpad='everpad --all-notes'
+
+# python
+alias pythonprofile='python -m cProfile -o cprofile.out'
