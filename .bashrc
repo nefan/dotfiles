@@ -85,6 +85,7 @@ alias present='pdf_presenter_console'
 alias trash='gvfs-trash'
 alias n='nautilus . &'
 alias t='gnome-terminal'
+evince() {  nohup /usr/bin/evince "$@" > /dev/null 2>&1& }
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
