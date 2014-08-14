@@ -1,4 +1,4 @@
 #!/bin/bash
 
-arecord -f dat -d 5 ~/tmp/test.wav
+arecord -d 4 -f cd -t wav ~/tmp/test.wav
 aplay ~/tmp/test.wav
