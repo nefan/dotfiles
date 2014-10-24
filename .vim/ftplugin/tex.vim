@@ -27,6 +27,9 @@ if (system("echo -n `cat *.tex.latexmain`") =~ 'beamer')
     let g:Tex_DefaultTargetFormat = 'pdf'
 endif
 
+" pdf default
+let g:Tex_DefaultTargetFormat = 'pdf'
+
 " warnings
 let g:Tex_IgnoredWarnings = 'Underfull'."\n"
         \ . 'Overfull'."\n"
