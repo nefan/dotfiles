@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/stefan/projects/smanifold/code/utils/plotting'
 let g:netrw_dirhist_2='/home/stefan/xx/no-kronred'
 let g:netrw_dirhist_3='/home/stefan/PostDoc-DTU12/projects/ssparse/Include'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/stefan/.config/autostart'
 let g:netrw_dirhist_6='/home/stefan/viveca'
 let g:netrw_dirhist_7='/home/stefan/PostDoc13/teaching/datanalyse2014/lectures/classification2'
 let g:netrw_dirhist_8='/home/stefan/.vim/ftplugin/python'
+let g:netrw_dirhist_9='/home/stefan/projects/jetflows/code/kernels/build'
