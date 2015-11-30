@@ -139,3 +139,6 @@ let vimclojure#WantNailgun = 1
 
 " autowrite
 set autowrite
+
+" Font
+set guifont=Monospace\ 12
